@@ -15,7 +15,7 @@ let cuartaString = "dia"
 let stringLength = terceraString.length + cuartaString.length
 console.log (stringLength)
 //////////////////////Strings//////////////////////////////*/
-let stringToUpper = "agustindesktop"
+/*let stringToUpper = "agustindesktop"
 let stringTuUpperCase = stringToUpper.toUpperCase()
 console.log (stringTuUpperCase)
 ////////////////////////////////////////////////
@@ -46,5 +46,39 @@ let secondToUpper = twoWords.substring(13,14).toUpperCase()
 let theSecondRestToLower = twoWords.substring(14,twoWords.length).toLowerCase()
 let secondPart = secondToUpper+theSecondRestToLower
 let stringResult = firstPart+secondPart
-console.log(stringResult)
+console.log(stringResult)*/
+/////////////////////////////arrays////////////////////////////////
 
+let arrMonths = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+ "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+
+console.log(arrMonths[4])
+console.log(arrMonths[10])
+///////////////////////////////////////////////////////////////////////
+let sortMonths = arrMonths.sort()
+console.log(sortMonths)
+//////////////////////////////////////////////////////////////////////
+arrMonths.push("ultimoElemento")
+console.log(arrMonths)
+//////////////////////////////////////////
+arrMonths.unshift("primerelemento")
+console.log(arrMonths)
+////////////////////////////////////////////////
+arrMonths.pop()
+console.log(arrMonths)
+//////////////////////////////////////
+arrMonths.shift()
+console.log(arrMonths)
+/////////////////////////////////////////
+arrMonths.reverse()
+console.log(arrMonths)
+////////////////////////////////////// 
+let firstJoin = arrMonths.join()
+let secondJoin = arrMonths.join("")
+let thirdJoin = arrMonths.join("-")
+console.log(thirdJoin)
+/////////////////////////////////////
+let arrMonths2 = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+"Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+let copyArrMonths= arrMonths2.slice(4,11)
+console.log(copyArrMonths)
