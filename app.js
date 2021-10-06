@@ -49,7 +49,7 @@ let stringResult = firstPart+secondPart
 console.log(stringResult)*/
 /////////////////////////////arrays////////////////////////////////
 
-let arrMonths = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+/*let arrMonths = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
  "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 
 console.log(arrMonths[4])
@@ -81,4 +81,4 @@ console.log(thirdJoin)
 let arrMonths2 = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
 "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 let copyArrMonths= arrMonths2.slice(4,11)
-console.log(copyArrMonths)
+console.log(copyArrMonths)*/

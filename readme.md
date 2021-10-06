@@ -1,9 +1,16 @@
-Problemática semanal 04
+# Become a Software Developer 🚀
 
--Javascript exercise
+## Problemática semanal 04 
 
-Author
-Agustín Macazzaga
+- Javascrip excercise
 
-GitHub repository: https://github.com/amacazzaga/dosko-g-basd-2021-class-4.git
+## Author 🖋️
+
+Agustin Macazzaga
+
+---
+GitHub repository: https://github.com/amacazzaga/dosko-g-basd-2021-class-4
+
+
+
 
