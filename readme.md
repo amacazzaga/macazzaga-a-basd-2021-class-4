@@ -2,7 +2,7 @@
 
 ## Problemática semanal 04 
 
-- Javascrip excercise
+- Javascrip exercise
 
 ## Author 🖋️
 
