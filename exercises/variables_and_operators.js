@@ -7,16 +7,16 @@ console.log(c)
 guardar el valor de la suma de ambos números en una 3er variable.
 */
 /////////////////////////////////////////////
-let firstString = "hola"
-let secondString = "mundo"
-let plusString = firstString+secondString
+var firstString = "hi"
+var secondString = "world"
+var plusString = firstString+secondString
 console.log (plusString)
 /* b)Crear dos variables de tipo String y concatenarlas guardando
  el resultado en una 3er variable.*/
 ///////////////////////////////
-let thirdString = "buen"
-let forthString = "dia"
-let stringLength = thirdString.length + forthString.length
+var thirdString = "good"
+var forthString = "morning"
+var  stringLength = thirdString.length + forthString.length
 console.log (stringLength)
 /* c)Crear dos variables de tipo String y sumar el largo 
 de cada variable (cantidad de letras del string) guardando 
