@@ -23,7 +23,11 @@
             guardar el valor de la suma de ambos números en una 3er variable.          
         </div>
         <div class="practica">
-           
+           <pre><code>
+            let a = 10
+            let b = 20
+            let c = a+b
+        </code></pre>
         </div>
         <div class="resultado">
             console.log(c)
@@ -36,7 +40,11 @@
            el resultado en una 3er variable          
         </div>
         <div class="practica">
-                   
+            <pre><code>
+                var firstString = "hi"
+                var secondString = "world"
+                var plusString = firstString+secondString
+            </code></pre>    
         </div>
         <div class="resultado">
             console.log (plusString)
@@ -50,7 +58,12 @@ de cada variable (cantidad de letras del string) guardando
 el resultado de la suma en una 3er variable (utilizar length)
         </div>
         <div class="practica">
-                   
+           
+            <pre><code>
+                var thirdString = "good"
+                var forthString = "morning"
+                var  stringLength = thirdString.length + forthString.length
+            </code></pre>     
         </div>
         <div class="resultado">
             console.log (stringLength)
@@ -64,7 +77,11 @@ el resultado de la suma en una 3er variable (utilizar length)
        convertir todo el texto en mayúscula (utilizar toUpperCase)
     </div>
     <div class="practica">
-      
+        <pre><code>
+            
+var stringToUpper = "agustindesktop"
+var stringTuUpperCase = stringToUpper.toUpperCase()
+        </code></pre>   
     </div>
     <div class="resultado">
         console.log (stringTuUpperCase)
@@ -78,7 +95,11 @@ el resultado de la suma en una 3er variable (utilizar length)
        resultado en una nueva variable (utilizar substring).
     </div>
     <div class="practica">
-       
+        <pre><code>
+            
+            var firstFive = "usersagustin"
+            var firstFiveCharat = firstFive.substring(0,5)
+                    </code></pre> 
     </div>
     <div class="resultado">
         console.log (firstFiveCharat)
@@ -92,7 +113,11 @@ el resultado de la suma en una 3er variable (utilizar length)
        el resultado en una nueva variable (utilizar substring)
     </div>
     <div class="practica">
-        
+        <pre><code>
+            
+            var lastTree = "javascriptlenguage"
+            var lastTreeWords = lastTree.substring(15,18)
+                    </code></pre> 
     </div>
     <div class="resultado">
         console.log(lastTreeWords)
@@ -107,7 +132,12 @@ el resultado de la suma en una 3er variable (utilizar length)
        toLowerCase y el operador +
     </div>
     <div class="practica">
-       
+        <pre><code>
+            var anotherString = "outlinetimeline"
+            var toUpperCase = anotherString.substring(0,1).toUpperCase()
+            var toLowerCase = anotherString.substring(1,anotherString.length).toLowerCase()
+            var finalStringToUpperCase = toUpperCase+toLowerCase
+                    </code></pre> 
     </div>
     <div class="resultado">
         console.log(finalStringToUpperCase)
@@ -124,7 +154,37 @@ el resultado de la suma en una 3er variable (utilizar length)
            toLowerCase y el operador +
     </div>
     <div class="practica">
-        
+        <pre><code>
+            var blankWordSomeWhere = "selection view"
+var spaceBlank = blankWordSomeWhere.indexOf(" ")
+                    </code></pre> 
+    </div>
+    <div class="resultado">
+        console.log(stringResult)
+    </div>
+</div>
+<div class="ejercicios">
+    <div class="consigna">
+       <P>EJERCICIOS - <strong> string</strong></P> 
+      e) Crear una variable de tipo string con al menos 2 palabras 
+      largas (10 caracteres y algún espacio entre medio). Utilizar los
+       métodos de los ejercicios anteriores para generar un nuevo string que 
+       tenga la primera letra de ambas palabras en mayúscula y las demás 
+       letras en minúscula (utilizar indexOf, substring, toUpperCase, 
+          toLowerCase y el operador
+    </div>
+    <div class="practica">
+        <pre><code>
+            var twoWords = "thefirstword thesecondword"
+            var findTheBlankSpace = twoWords.indexOf(" ") /// this to found were the cut must be done
+            var firstWordToUpper = twoWords.substring(0,1).toUpperCase()
+            var theRestToLower = twoWords.substring(1,13).toLowerCase()
+            var firstPart = firstWordToUpper+theRestToLower
+            var secondToUpper = twoWords.substring(13,14).toUpperCase()
+            var theSecondRestToLower = twoWords.substring(14,twoWords.length).toLowerCase()
+            var secondPart = secondToUpper+theSecondRestToLower
+            var stringResult = firstPart+secondPart
+         </code></pre> 
     </div>
     <div class="resultado">
         console.log(stringResult)
@@ -139,16 +199,18 @@ el resultado de la suma en una 3er variable (utilizar length)
         mensaje “Greater than 0,5” y sino un alerta con el mensaje “Lower than 0,5”
     </div>
     <div class="practica">
-      *  en este caso el resultado y practica estan juntos
+        <pre><code>
+            var randomNub = Math.random(0,1)
+            console.log(randomNub)
+            if (randomNub>=0.5){
+               // window.alert("Greater than 0,5")    
+            }else {
+                //window.alert("Lower than 0,5")
+            }
+         </code></pre> 
     </div>
     <div class="resultado">
-        var randomNub = Math.random(0,1)
-        console.log(randomNub)
-        if (randomNub>=0.5){
-            window.alert("Greater than 0,5")    
-        }else {
-            window.alert("Lower than 0,5")
-        }
+      el resultado esta en el desarrollo
     </div>
 </div>
 <div class="ejercicios">
@@ -158,26 +220,27 @@ el resultado de la suma en una 3er variable (utilizar length)
 y muestre los siguientes mensajes de alerta:
     </div>
     <div class="practica">
-       * en este caso el resultado y practica estan juntos
+        <pre><code>
+            var ageDecimal =  Math.random()*100
+            age = Math.floor(ageDecimal)
+            console.log(age)
+           <!-- if (age<2){
+                window.alert("Bebé")
+            }else if (age<=12){
+               // window.alert("Niño")
+            }else if (age<=19){
+               // window.alert("Adolescente")
+            }else if (age<=30){
+               // window.alert("Joven")
+            }else if (age<=60){
+               // window.alert("Adulto")
+            }else if (age<=75){
+               // window.alert("Adulto Mayor")
+            }else ("Anciano")-->
+         </code></pre> 
     </div>
     <div class="resultado">
-        var ageDecimal =  Math.random()*100
-        age = Math.floor(ageDecimal)
-        console.log(age)
-        if (age<2){
-            window.alert("Bebé")
-        }else if (age<=12){
-            window.alert("Niño")
-        }else if (age<=19){
-            window.alert("Adolescente")
-        }else if (age<=30){
-            window.alert("Joven")
-        }else if (age<=60){
-            window.alert("Adulto")
-        }else if (age<=75){
-            window.alert("Adulto Mayor")
-        }else ("Anciano")
-    </div>
+       el resultado esta en el desarrollo
 </div>
 <div class="ejercicios">
     <div class="consigna">
@@ -188,7 +251,10 @@ y muestre los siguientes mensajes de alerta:
         mostrar por consola los meses 5 y 11 (utilizar console.log).
     </div>
     <div class="practica">
- 
+        <pre><code>
+            var arrMonths = ["January", "February", "March", "April", "May", "June",
+ "July", "August", "September", "October", "November", "Dicember"]
+         </code></pre> 
     </div>
     <div class="resultado">
         console.log(arrMonths[4])
@@ -202,8 +268,9 @@ y muestre los siguientes mensajes de alerta:
        (utilizar sort)
     </div>
     <div class="practica">
-        
-        
+        <pre><code>
+            var sortMonths = arrMonths.sort()
+         </code></pre>       
     </div>
     <div class="resultado">
         console.log(sortMonths)
@@ -215,7 +282,11 @@ y muestre los siguientes mensajes de alerta:
       c) Agregar un elemento al principio y al final del array (utilizar unshift y push)
     </div>
     <div class="practica">
-             
+        <pre><code>
+            arrMonths.push("lastElement")
+            console.log(arrMonths)
+            arrMonths.unshift("firstElement")
+         </code></pre>    
     </div>
     <div class="resultado">
         console.log(arrMonths)
@@ -227,7 +298,11 @@ y muestre los siguientes mensajes de alerta:
        d)Quitar un elemento del principio y del final del array (utilizar shift y pop).
     </div>
     <div class="practica">
-        
+        <pre><code>
+            arrMonths.pop()           
+            arrMonths.shift()
+         </code></pre>    
+    </div>
     </div>
     <div class="resultado">
         console.log(arrMonths)
@@ -239,7 +314,9 @@ y muestre los siguientes mensajes de alerta:
       e) Invertir el orden del array (utilizar reverse).*/
     </div>
     <div class="practica">
-       
+        <pre><code>
+            arrMonths.reverse()
+         </code></pre>
     </div>
     <div class="resultado">
         console.log(arrMonths)
@@ -252,7 +329,12 @@ y muestre los siguientes mensajes de alerta:
 donde cada mes este separado por un guión - (utilizar join).
     </div>
     <div class="practica">
-          
+        <pre><code>
+            var firstJoin = arrMonths.join()
+            var secondJoin = arrMonths.join("")
+            var thirdJoin = arrMonths.join("-")
+         </code></pre>
+    </div>
     </div>
     <div class="resultado">
         console.log(thirdJoin)
@@ -265,7 +347,11 @@ donde cada mes este separado por un guión - (utilizar join).
        Mayo hasta Noviembre (utilizar slice)
     </div>
     <div class="practica">
-        
+        <pre><code>
+            var arrMonths2 = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+            "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+            var copyArrMonths= arrMonths2.slice(4,11)
+         </code></pre>
     </div>
     <div class="resultado">
         console.log(copyArrMonths)
@@ -280,10 +366,16 @@ utilizando un bucle for de JavaScript para mostrar una alerta utilizando
 cada una de las palabras.*/
     </div>
     <div class="practica">
-        practica en resultado
+       el resultado esta en la practica
     </div>
     <div class="resultado">
-     
+        <pre><code>
+            var myArr = ["monday","tuesday","wednesday","thursday","friday"]
+            for (let i = 0; i < myArr.length; i++) {
+                
+               // window.alert(myArr[i])
+            }
+         </code></pre>
     </div>
 </div>
 <div class="ejercicios">
@@ -293,14 +385,16 @@ cada una de las palabras.*/
        en mayúscula y mostrar una alerta por cada palabra modificada.
     </div>
     <div class="practica">
-      
+     el resultado esta en la practica
     </div>
     <div class="resultado">
-        for (let i = 0; i < myArr.length; i++) {
-            let firstPosition = myArr[i][0]
-            let firstToUpper = firstPosition.toUpperCase()
-            window.alert(firstToUpper+myArr[i].slice(1)) 
-        }
+        <pre><code>
+            var myArr = ["monday","tuesday","wednesday","thursday","friday"]
+            for (let i = 0; i < myArr.length; i++) {
+                
+               // window.alert(myArr[i])
+            }
+         </code></pre>
     </div>
 </div>
 <div class="ejercicios">
@@ -312,10 +406,15 @@ cada una de las palabras.*/
        Al final mostrar una única alerta con la cadena completa
     </div>
     <div class="practica">
-       
+        <pre><code>
+            var sentence = "";
+            for (var i = 0; i < colors.length; i++) {
+                sentence += colors[i] + " " ;
+            }
+         </code></pre>
     </div>
     <div class="resultado">
-      alert(sentence);
+      window.alert(sentence);
     </div>
 </div>
 <div class="ejercicios">
@@ -328,7 +427,12 @@ desde el número 0 hasta al número 9. Mostrar por la consola del navegador
 el array final (utilizar console.log)
     </div>
     <div class="practica">
-       
+        <pre><code>
+            var emptyArr = [];
+for (var i = 0; i < 10; i++) {
+    emptyArr[i] = i;
+}
+         </code></pre>
     </div>
     <div class="resultado">
         console.log(emptyArr)
@@ -349,7 +453,22 @@ el array final (utilizar console.log)
        con el error y retorna el número convertido a entero (redondeado)*/
     </div>
     <div class="practica">
-      
+        <pre><code>
+
+            function suma (a,b){
+    
+                validator(a,b)
+              
+                 if (Number.isInteger(a-b)!=true){
+                  // window.alert ("uno de los numeros es decimal, fue redondeado")
+                  
+                   return Math.round(a+b)
+                 }
+                 
+                 else return a+b
+                  }
+               var result = suma (5,6)
+         </code></pre>
     </div>
     <div class="resultado">
         console.log(result)
@@ -362,16 +481,19 @@ el array final (utilizar console.log)
        llamarla dentro de la función suma probando que todo siga funcionando igual
     </div>
     <div class="practica">
-      
+        <pre><code>
+
+            function validator (a,b){
+                if(typeof a!=="number"||typeof b !=="number")
+                {
+                //  window.alert("uno de los parametros no es un numero")
+                  return NaN             
+                }
+                }
+         </code></pre>
     </div>
     <div class="resultado">
-        function validator (a,b){
-            if(typeof a!=="number"||typeof b !=="number")
-            {
-              window.alert("uno de los parametros no es un numero")
-              return NaN             
-            }
-            }
+        el resultado es el desarrollo
     </div>
 </div>
 <div class="ejercicios">
@@ -381,7 +503,15 @@ el array final (utilizar console.log)
 devuelva verdadero si es un número entero*
     </div>
     <div class="practica">
-        
+        <pre><code>
+
+            function validateInteger (a){
+ 
+                if (Number.isInteger(a)===true){
+                  return true
+                }else return false
+               }
+         </code></pre>
     </div>
     <div class="resultado">
         console.log(validateInteger(6))
