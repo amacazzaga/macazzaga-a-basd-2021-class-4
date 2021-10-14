@@ -1,0 +1,14 @@
+.ejercicios{
+    padding: 20px;
+    border: solid;
+}
+.consigna {
+    padding: 25px;
+}
+.practica {
+    padding: 25px;x;
+}
+.resultado {
+    padding: 25px;
+    background-color: green;
+}
